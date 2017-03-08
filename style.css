@@ -1,0 +1,682 @@
+@font-face {
+    font-family: 'ptserif';
+    src: url('fonts/PTF55F-webfont.eot');
+    src: url('fonts/PTF55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTF55F-webfont.woff') format('woff'),
+         url('fonts/PTF55F-webfont.ttf') format('truetype'),
+         url('fonts/PTF55F-webfont.svg#pt_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+div.heading{
+    width: 100%;
+    text-align: center;
+}
+
+div.heading h1{
+    color: #303133;
+    font-family: ptserif;
+    font-size: 35px;
+}
+
+div.portfolioMenu{
+    width: 100%;
+}
+
+div.portfolioMenu ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+div.portfolioMenu ul li{
+    display: inline-block;
+    color: #6a7475;
+    font-size: 14px;
+    font-family: ptserif;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-bottom: 3px solid transparent;
+}
+
+div.portfolioMenu ul li:hover{
+    color: #4177ff;
+    border-bottom: 3px solid #4177ff;
+}
+
+.hover{
+    color: #4177ff;
+    border-bottom: 3px solid #4177ff;
+}
+
+div.portfolioContent{
+    width:100%;
+}
+
+div.embed-responsive{
+    min-height: 300px;
+    max-height: 300px;
+}
+
+
+div.portfolioSection{
+    overflow: hidden;
+    height: 300px;
+}
+
+div#carouselOne{
+    height: 100%;
+    width: 100%;
+}
+
+div.carousel-inner,
+div.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+
+.img-width{
+    width: 100%; height: 100%;
+}
+
+
+div.portfolioSection:hover div.portHoverArea {
+    width: 100%;
+    display: block;
+    transition: all 1s;
+    height: 100%;
+}
+
+div.portHoverArea{
+    background-image: url(img/slider.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin-top: -300px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 300px;
+    max-height: 100%;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+    padding-top: 15%;
+    background-size: 100% 100%;
+    display: none;    
+}
+
+div.hoverContentArea{
+    font-family: ptserif;
+}
+
+
+div.hoverContentArea h2{
+    color: #fff;
+    font-size: 22px;
+    font-family: ptserif;
+}
+
+div.hoverContentArea p{
+    color: #d4d4d4;
+    font-size: 16px;
+    font-family: ptserif;
+}
+
+div.iconArea{
+    text-align: center;
+    clear: both;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.iconArea button{    
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 45px;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+
+/*  
+==========================================================================
+Section Two Style
+==========================================================================
+*/
+@media only screen and (min-width: 700px) {
+    div.embed-responsive{
+        min-height: 300px;
+        max-height: 300px;
+    }
+
+    div#carouselOne{
+        height: 300px;
+        width: 100%;
+        max-height: 300px;
+        min-height: 100%;
+    }
+
+    div.carousel-inner,
+    div.carousel-item{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+.grid{
+    padding: 0;
+}
+
+.grid-sizer{
+    width: 33.33%;
+}
+.item{ 
+    width: 33.33%; 
+}
+
+iframe{
+    width: 100%;
+}
+img{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+div.heading{
+    width: 100%;
+    text-align: center;
+}
+
+div.heading h1{
+    color: #303133;
+    font-family: ptserif;
+    font-size: 35px;
+}
+
+div.padding{
+    padding: 0;
+}
+div.item{
+    padding:0;
+}
+div.portfolioMenu{
+    width: 100%;
+}
+
+div.portfolioMenu ul li{
+    display: inline-block;
+    color: #6a7475;
+    font-size: 14px;
+    font-family: ptserif;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-bottom: 3px solid transparent;
+}
+
+div.portfolioMenu ul li:hover{
+    color: #4177ff;
+    border-bottom: 3px solid #4177ff;
+}
+.active {
+    color: #4177ff !important;
+    border-bottom: 3px solid #4177ff !important;
+}
+
+div.portfolioContent{
+    width:100%;
+}
+
+
+
+div.portfolioSection{
+    overflow: hidden;
+    height: 300px;
+}
+
+.img-width{
+    width: 100%; height: 100%;
+}
+
+div.portfolioSection:hover div.portHoverArea {
+    width: 100%;
+    display: block;
+    transition: all 1s;
+    height: 100%;
+}
+
+div.portHoverArea{
+    background-image: url(img/slider.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin-top: -300px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 300px;
+    max-height: 100%;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+    padding-top: 15%;
+    background-size: 100% 100%;
+    display: none;    
+}
+
+div.hoverContentArea{
+    font-family: ptserif;
+}
+
+
+div.hoverContentArea h2{
+    color: #fff;
+    font-size: 22px;
+    font-family: ptserif;
+}
+
+div.hoverContentArea p{
+    color: #d4d4d4;
+    font-size: 16px;
+    font-family: ptserif;
+}
+
+div.iconArea{
+    text-align: center;
+    clear: both;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.iconArea button{    
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 45px;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+/*  
+==========================================================================
+Section Two Style
+==========================================================================
+*/
+
+
+@font-face {
+    font-family: 'ptserif';
+    src: url('fonts/PTF55F-webfont.eot');
+    src: url('fonts/PTF55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTF55F-webfont.woff') format('woff'),
+         url('fonts/PTF55F-webfont.ttf') format('truetype'),
+         url('fonts/PTF55F-webfont.svg#pt_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ptsans';
+    src: url('PTN57F-webfont.eot');
+    src: url('PTN57F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('PTN57F-webfont.woff') format('woff'),
+         url('PTN57F-webfont.ttf') format('truetype'),
+         url('PTN57F-webfont.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.padding{
+  padding: 0;
+}
+
+div.heading{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+div.heading h1{
+    color: #303133;
+    font-family: ptserif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+div.heading p{
+  color: #6a7475;
+  font-size: 17px;
+  font-family: ptsans;
+}
+
+.carouselContent{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 18;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 20px;
+    float: left;
+    display: none;
+    transition: background-color 1s;
+}
+.slick-slide:hover .carouselContent {
+  display: block;
+}
+
+.carouselContent:hover{
+  background-color: #000;
+  color: #fff;
+}
+.carouselContent:hover p{
+  color: #fff !important;
+}
+
+.carouselContent h3{
+  font-size: 22px;
+  color: #ffffff;
+  font-family: ptserif;
+}
+
+.carouselContent p{
+  color: #5aacff;
+  font-size: 12px;
+  font-family: ptserif;
+  float: left;
+}
+
+.carouselContent a{
+  color: #fff;
+  font-size: 15px;
+  float: right;
+}
+
+
+
+
+.slider {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px;
+  position: relative
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-next, .slick-prev{
+    border: 2px solid #303133;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.slick-prev {
+  left: 50%;
+  top: -50px;
+  margin-left: 7px;
+}
+.slick-next {
+  right: 50%;
+  top: -50px;
+  margin-right: 7px;
+}
+
+.controllers{
+  text-align: center;
+  margin-top: -500px;
+}
+
+
+
+/*  
+==========================================================================
+Section Four Style
+==========================================================================
+*/
+
+
+img{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+div.heading{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+div.heading h1{
+    color: #303133;
+    font-family: ptserif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+div.heading p{
+  color: #6a7475;
+  font-size: 17px;
+  font-family: ptsans;
+}
+
+div.marginBottom{
+     margin-bottom: 30px;
+     border-radius: 5px;
+     border: 2px solid #cbd2d5;
+     padding: 0;
+}
+
+
+div.gallery_item{
+    position: relative;
+}
+
+div.portfolioContent{
+    text-align: center;
+    padding: 10px;
+}
+
+div.portfolioContent h4{
+    color: #6f787d;
+    font-size: 18px;
+    font-family: ptserif;
+}
+
+div.portfolioContent span{
+    color: #afb9be;
+    font-size: 16px;
+    font-family: ptsans;
+}
+
+div.galleryHoverArea{
+    background-image: url(img/slider.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 180px;
+    max-height: 100%;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    padding-top: 15%;
+    background-size: 100% 100%;
+    display: none    
+}
+
+div.iconArea{
+    text-align: center;
+    clear: both;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.iconArea a{    
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 45px;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+div.marginBottom:hover div.galleryHoverArea{
+    display: block;
+}
+
+/*  
+==========================================================================
+    Section Five, Six, Seven Style
+==========================================================================
+*/
+
+
+div.property{
+    width: 100%;
+    min-height: 365px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 8px;
+}
+
+div.margin_bottom{
+    margin-bottom: 30px;
+    float: left;
+}
+div.propertyContent{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    min-height: 365px;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    font-family: fontserif;
+    font-size: 25px;
+    border-radius: 8px;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.propertyHover{
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-height: 365px;
+    top: 0;
+    z-index: 11;
+    visibility: hidden;
+    color: #fff;
+    font-family: fontserif;
+    font-size: 25px;
+    border-radius: 8px;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+
+
+div.propertyContent i, div.propertyHover i{
+    font-weight: blod;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+div.property:hover div.propertyHover{
+    visibility: visible;
+}
+
+
+div.propertyContent h3, div.propertyHover h3{
+    font-size: 30px;
+    color: #eef0f3;
+    font-family: ptserif;
+}
+
+div.propertyContent p, div.propertyHover p{
+    font-size: 17px;
+    color: #eef0f3;
+    font-family: ptsans;
+}
+
+
+
+/*  
+==========================================================================
+    Section Eight
+==========================================================================
+*/
+
+div.propertyService{
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 8px;
+}
+
+div.service {
+    min-height: 285px;
+}
+
+div.propertyService:hover div.propertyHover{
+    visibility: visible;
+}
